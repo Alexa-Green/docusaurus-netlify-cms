@@ -25,3 +25,27 @@ collections:
       - { label: 'Description', name: 'description', required: false }
       - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, required: false }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'blog'
+    create: true
+    slug: '{{date}}-{{id}}'
+    identifier_field: 'title'
+    extension: 'md'
+    format: 'frontmatter'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Slug', name: 'id', widget: 'string' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Author', name: 'author', required: false }
+      - { label: 'Author Title', name: 'author_title', widget: 'string', required: false }
+      - { label: 'Author URL', name: 'author_url', widget: 'string', required: false }
+      - { label: 'Author Image', name: 'author_image_url', widget: 'image', allow_multiple: false, required: false }
+      - { label: 'Hide Table of Contents', name: 'hide_table_of_contents', widget: 'boolean', default: false }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: [], required: false }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', default: true }
+      - { label: 'Date', name: 'date', widget: 'datetime', format: 'YYYY-MM-DD', timeFormat: false }
+      - { label: 'Description', name: 'description', required: false }
+      - { label: 'Image', name: 'image', widget: 'image', allow_multiple: false, required: false }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
