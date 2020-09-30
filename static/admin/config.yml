@@ -57,7 +57,7 @@ collections:
     create: true
     slug: '{{id}}'
     identifier_field: 'title'
-    extension: 'md'
+    extension: 'js'
     format: 'frontmatter'
     fields:
       - { label: 'Slug', name: 'id', widget: 'string' }
