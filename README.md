@@ -1,6 +1,8 @@
-# Website
+# Docusaurus Netlify CMS Starter
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This is a starter website built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator, with Netlify CMS enabled.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Alexa-Green/docusaurus-netlify-cms)
 
 ### Installation
 
