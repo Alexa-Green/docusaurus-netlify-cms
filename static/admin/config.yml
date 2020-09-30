@@ -13,6 +13,8 @@ collections:
     identifier_field: 'title'
     extension: 'md'
     format: 'frontmatter'
+    editor:
+      preview: false
     fields:
       # - name: 'menu'
       #   label: 'Menu'
@@ -59,6 +61,8 @@ collections:
     identifier_field: 'title'
     extension: 'js'
     format: 'frontmatter'
+    editor:
+      preview: false
     fields:
       - { label: 'Slug', name: 'id', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
